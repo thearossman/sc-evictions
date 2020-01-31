@@ -1,3 +1,3 @@
 load("/Users/Thea/GitHub/sc-evictions/data/cities_geo.rds")
 load("/Users/Thea/GitHub/sc-evictions/data/cities_raw.rds")
-load("/Users/Thea/GitHub/sc-evictions/data/cities_raw.rds")
+load("/Users/Thea/GitHub/sc-evictions/data/cities_geo.rds")
