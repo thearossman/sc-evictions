@@ -1,0 +1,37 @@
+---
+title: 
+author: "Thea Rossman"
+date: "`r Sys.Date()`"
+output: 
+  github_document:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message=FALSE, warning=FALSE}
+# Libraries
+library(tidyverse)
+
+# Parameters
+
+filepath <- here::here("/data/cities_evict.rds")
+
+#===============================================================================
+
+# Code
+```
+
+
+
+```{r}
+sc_evictions_2016 <- read_rds(filepath)
+
+sc_evictions_2016 %>%
+  arrange(desc(evictions))
+  
+```
+
+*North Charleston had the most evictions.*
